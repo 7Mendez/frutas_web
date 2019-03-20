@@ -17,7 +17,7 @@
       <tr>
         <td><%= idea.name %></td>
         <td><%= idea.description %></td>
-        <td><%= image_tag(idea.picture,  :width => 110) if idea.picture.present? %></td>
+        <td><%= idea.picture %></td>
         <td><%= link_to 'Mostrar', idea %></td>
         <td><%= link_to 'Editar', edit_idea_path(idea) %></td>
         <td><%= link_to 'Eliminar', idea, method: :delete, data: { confirm: 'Are you sure?' } %></td>
