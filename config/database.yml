@@ -52,4 +52,4 @@ production:
   encoding: utf8
   database: miApp_production
   username: postgres
-  password: ""
+  password: 
