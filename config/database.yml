@@ -49,7 +49,8 @@ production:
 #
 production:
   <<: *default
+  adapter: postgresql
+  encoding: utf8
   database: miApp_production
   username: miApp
   password: <%= ENV['MIAPP_DATABASE_PASSWORD'] %>
-  url: <%= ENV['DATABASE_URL'] %>
