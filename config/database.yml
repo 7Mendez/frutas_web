@@ -44,13 +44,14 @@ test:
 #
 # You can use this database configuration with:
 #
-production:
+#production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
   adapter: postgresql
   encoding: utf8
   database: miApp_production
   username: miApp
-  password: <%= ENV['MIAPP_DATABASE_PASSWORD'] %>
+  password: ""
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: localhost
