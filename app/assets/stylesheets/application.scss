@@ -13,7 +13,8 @@
  *= require_tree .
  *= require_self
  */
-
+@import "bootstrap"
+  
 body { padding-top: 0px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
