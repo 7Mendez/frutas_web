@@ -15,14 +15,21 @@
  */
 @import "bootstrap"
 
-footer
-  margin-top: 100px
+body {
+  padding-top: 0px;
+}
 
-table, td
-  vertical-align: middle
-  border: none
+footer {
+  margin-top: 100px;
+}
 
-th
-  vertical-align: middle
-  border: none
-  border-bottom: 1px solid #DDD
+table, td {
+  vertical-align: middle;
+  border: none;
+}
+
+th {
+  vertical-align: middle;
+  border: none;
+  border-bottom: 1px solid #DDD;
+}
