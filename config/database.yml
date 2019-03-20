@@ -51,8 +51,5 @@ production:
   adapter: postgresql
   encoding: utf8
   database: miApp_production
-  username: miApp
+  username: postgres
   password: ""
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  host: localhost
-  port: 5432
