@@ -40,11 +40,11 @@ test:
 # On Heroku and other platform providers, you may have a full connection URL
 # available as an environment variable. For example:
 #
-#DATABASE_URL="mysql2://henry.7mendezz@gmail.com:@Git7Mendezzlocalhost/somedatabase"
+# DATABASE_URL="mysql2://myuser:mypass@localhost/somedatabase"
 #
 # You can use this database configuration with:
 #
-#production:
+production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
